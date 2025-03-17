@@ -1,37 +1,791 @@
-<!DOCTYPE html>
-<html lang="en">
+
+
+<!doctype html>
+<html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Flix Prime - Todo en un solo lugar </title>
+    <link href="http://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <link rel="stylesheet" href="assets/css/style-liberty.css">
+    <!--//Template-CSS -->
 </head>
+
 <body>
-   
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <!--/Header-->
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light stroke py-lg-0">
+                <h1><a class="navbar-brand" href="index.html">
+                        <span class="w3yellow">Flix</span> Prime
+                    </a></h1>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav mx-lg-auto my-2 my-lg-0 navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about1">Acerca</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contenido">Contenido</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#Pages" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Elige tu país <span class="fa fa-angle-down ms-1"></span>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="#">Perú</a></li>
+                                <li><a class="dropdown-item" href="#">Argentina</a></li>
+                                <li><a class="dropdown-item" href="#">Bolivia</a></li>
+                                <li><a class="dropdown-item" href="#">Chile</a></li>
+                                <li><a class="dropdown-item" href="#">Colombia</a></li>
+                                <li><a class="dropdown-item" href="#">Costa Rica</a></li>
+                                <li><a class="dropdown-item" href="#">Ecuador</a></li>
+                                <li><a class="dropdown-item" href="#">México</a></li>
+                                <li><a class="dropdown-item" href="#">Panamá</a></li>
+                                <li><a class="dropdown-item" href="#">Paraguay</a></li>
+                                <li><a class="dropdown-item" href="#">Uruguay</a></li>
+                                <li><a class="dropdown-item" href="#">Venezuela</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!--/search-right-->
+                    <ul class="header-search me-lg-4">
+                        <li class="nav-item search-right">
+                            <a href="https://wa.link/dfiy2m" class="btn search-btn btn-primary" title="search">Contactar ventas</a>
+                            <!-- search popup -->
+                            <!-- /search popup -->
+                        </li>
+                    </ul>
+                    <!--//search-right-->
+                </div>
+
+            </nav>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
+    </header>
+    <!--//Header-->
+    <!--/Banner-Start-->
+    <!-- main-slider -->
+    <section class="w3l-main-slider banner-slider" id="home">
+        <div class="owl-one owl-carousel owl-theme">
+            <div class="item">
+                <div class="slider-info banner-view banner-top1">
+                    <div class="container">
+                        <div class="w3banner-grids">
+                            <div class="banner-info header-hero-19">
+                                <p class="w3hny-tag">Todo por solo S/19.90 al mes</p>
+                                <h3 class="title-hero-19">Las mejores series actuales</h3>
+                                <a href="https://wa.link/dfiy2m" class="btn btn-style btn-primary mt-4">Pruébalo gratis </a>
+                            </div>
+                            <div class="banner-left position-relative mt-5">
+                                <a href="#small-dialog" class="popup-with-zoom-anim play-view text-center position-absolute">
+                                    <span class="video-play-icon">
+                                        <span class="fa fa-play"></span>
+                                    </span>
+                                </a>
+                                <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+                                <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+                                    <iframe src="https://player.vimeo.com/video/929533422?h=22464993d4" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="slider-info banner-view banner-top2">
+                    <div class="container">
+                        <div class="w3banner-grids">
+                            <div class="banner-info header-hero-19">
+                                <p class="w3hny-tag">Todo por solo S/19.90 al mes</p>
+                                <h3 class="title-hero-19">Las películas más taquilleras</h3>
+                                <a href="https://wa.link/dfiy2m" class="btn btn-style btn-primary mt-4">Pruébalo gratis </a>
+                            </div>
+                            <div class="banner-left position-relative mt-5">
+                                <a href="#small-dialog" class="popup-with-zoom-anim play-view text-center position-absolute">
+                                    <span class="video-play-icon">
+                                        <span class="fa fa-play"></span>
+                                    </span>
+                                </a>
+                                <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+                                <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+                                    <iframe src="https://player.vimeo.com/video/929533422?h=22464993d4" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="slider-info banner-view banner-top3">
+                    <div class="container">
+                        <div class="w3banner-grids">
+                            <div class="banner-info header-hero-19">
+                                <p class="w3hny-tag">Todo por solo S/19.90 al mes</p>
+                                <h3 class="title-hero-19">Todo el fútbol mundial</h3>
+                                <a href="https://wa.link/dfiy2m" class="btn btn-style btn-primary mt-4">Pruébalo gratis </a>
+                            </div>
+                            <div class="banner-left position-relative mt-5">
+                                <a href="#small-dialog" class="popup-with-zoom-anim play-view text-center position-absolute">
+                                    <span class="video-play-icon">
+                                        <span class="fa fa-play"></span>
+                                    </span>
+                                </a>
+                                <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+                                <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+                                    <iframe src="https://player.vimeo.com/video/929533422?h=22464993d4" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="slider-info banner-view banner-top4">
+                    <div class="container">
+                        <div class="w3banner-grids">
+                            <div class="banner-info header-hero-19">
+                                <p class="w3hny-tag">Todo por solo S/19.90 al mes</p>
+                                <h3 class="title-hero-19">Todos los animes, encuentralos aquí</h3>
+                                <a href="https://wa.link/dfiy2m" class="btn btn-style btn-primary mt-4">Pruébalo gratis </a>
+                            </div>
+                            <div class="banner-left position-relative mt-5">
+                                <a href="#small-dialog" class="popup-with-zoom-anim play-view text-center position-absolute">
+                                    <span class="video-play-icon">
+                                        <span class="fa fa-play"></span>
+                                    </span>
+                                </a>
+                                <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+                                <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+                                    <iframe src="https://player.vimeo.com/video/929533422?h=22464993d4" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="slider-info banner-view banner-top5">
+                    <div class="container">
+                        <div class="w3banner-grids">
+                            <div class="banner-info header-hero-19">
+                                <p class="w3hny-tag">Todo por solo S/19.90 al mes</p>
+                                <h3 class="title-hero-19">Peliculas clásicas de toda la vida</h3>
+                                <a href="https://wa.link/dfiy2m" class="btn btn-style btn-primary mt-4">Pruébalo gratis </a>
+                            </div>
+                            <div class="banner-left position-relative mt-5">
+                                <a href="#small-dialog" class="popup-with-zoom-anim play-view text-center position-absolute">
+                                    <span class="video-play-icon">
+                                        <span class="fa fa-play"></span>
+                                    </span>
+                                </a>
+                                <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+                                <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+                                    <iframe src="https://player.vimeo.com/video/921376118?h=22464993d4" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="slider-info banner-view banner-top6">
+                    <div class="container">
+                        <div class="w3banner-grids">
+                            <div class="banner-info header-hero-19">
+                                <p class="w3hny-tag">Todo por solo S/19.90 al mes</p>
+                                <h3 class="title-hero-19">TV local en vivo de toda latinoamérica </h3>
+                                <a href="https://wa.link/dfiy2m" class="btn btn-style btn-primary mt-4">Pruébalo gratis </a>
+                            </div>
+                            <div class="banner-left position-relative mt-5">
+                                <a href="#small-dialog" class="popup-with-zoom-anim play-view text-center position-absolute">
+                                    <span class="video-play-icon">
+                                        <span class="fa fa-play"></span>
+                                    </span>
+                                </a>
+                                <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+                                <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+                                    <iframe src="https://player.vimeo.com/video/929533422?h=22464993d4" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>  
-</body>
+
+
+    </section>
+    <!-- //main-slider -->
+<div style="margin: 8px auto; display: block; text-align:center;">
+
+<!---728x90--->
+
+ 
+</div>
+        <!--/about-page-->
+        <section class="w3l-ab-page py-5" id="about1">
+            <div class="container py-lg-5 py-md-4 py-2">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 pe-lg-5">
+                        <h6 class="title-subw3hny mb-2">Por qué elegirnos</h6>
+                        <h3 class="title-w3l mb-2">Obtén todas las series, películas, y canales en vivo en un solo lugar
+                        </h3>
+    
+                        <p class="mt-3">No es necesario suscribirte a múltiples plataformas; Flix Prime ofrece la consolidación de contenido de diversas plataformas, canales premium, televisión en vivo y deportes, todo en un único lugar y a un precio imbatible.</p>
+                        <div class="row two-grids mt-5 pt-lg-4">
+                            <div class="col-sm-6 grids_info d-flex">
+                                <i class="fas fa-headset"></i>
+                                <div class="detail ms-3">
+                                    <h4>Soporte 24/7</h4>
+                                    <p>Contamos con atención personalizada permamentente.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 grids_info d-flex mt-sm-0 mt-4">
+                                <i class="fas fa-globe"></i>
+                                <div class="detail ms-3">
+                                    <h4>
+                                        Activación en 5 minutos</h4>
+                                    <p>Solo se requiere una conexión a Internet de mínimo 30mb
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 offset-lg-1 text-end mt-lg-0 mt-5 position-relative">
+                        <img src="assets/images/ab.jpg" alt="" class="img-fluid radius-image">
+                        <div class="imginfo__box">
+                            <h6 class="imginfo__title">S/19<span style="font-size:smaller; vertical-align: top;">.90</span></h6>
+                            <p>POR MES (hasta 3 dispositivos)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--/grids-->
+    <!--//grids-->
+    <!-- features-section -->
+    <section class="w3l-features py-5" id="features">
+        <div class="container py-lg-5 py-md-4 py-2">
+            <div class="title-content text-center mb-lg-3 mb-4">
+                <h6 class="title-subw3hny mb-1">Desde cualquier</h6>
+                <h3 class="title-w3l">Dispositivo</h3>
+            </div>
+            <div class="main-cont-wthree-2">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6 mt-lg-5 mt-4">
+                        <div class="grids-1 box-wrap">
+                            <div class="icon">
+                                <i class="fas fa-tv"></i>
+                            </div>
+                            <h4><a href="#service" class="title-head mb-3">Smart TV</a></h4>
+                            <p class="text-para">Disponible en todos los Smart TV de cualquier marca</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-lg-5 mt-4">
+                        <div class="grids-1 box-wrap">
+                            <div class="icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h4><a href="#service" class="title-head mb-3">Smartphone</a></h4>
+                            <p class="text-para">Smartphone o Tablet con sistema Android o iOS</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-lg-5 mt-4">
+                        <div class="grids-1 box-wrap">
+                            <div class="icon">
+                                <i class="fas fa-laptop"></i>
+                            </div>
+                            <h4><a href="#service" class="title-head mb-3">PC / Laptop</a></h4>
+                            <p class="text-para">Puedes usarlo desde tu laptop o PC de escritorio.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//features-section -->
+
+    <!--/w3-grids-->
+    <section class="w3l-passion-mid-sec py-5">
+        <div class="container py-md-5 py-3">
+                <div class="row w3l-passion-mid-grids" style="margin-top: -1.5em;">
+                    <div class="col-lg-6 passion-grid-item-info ps-lg-4">
+                        <div class="w3lgrids-1 box-wrap mt-4">
+                            <div class="icon">
+                                <i class="fab fa-buromobelexperte"></i>
+                            </div>
+                            <div class="icon-text">
+                                <h4><a href="#service" class="title-head">
+                                        +1400 canales de TV en vivo</a></h4>
+                                <p class="text-para mt-2">Televisión local e internacional de más de 30 países y los principales canales de cadenas.</p>
+                            </div>
+                        </div>
+                        <div class="w3lgrids-1 box-wrap mt-4">
+                            <div class="icon">
+                                <i class="fab fa-buromobelexperte"></i>
+                            </div>
+                            <div class="icon-text">
+                                <h4><a href="#service" class="title-head">+13000 películas</a></h4>
+                                <p class="text-para mt-2">Películas de estreno, películas de plataformas líderes, cine latino y clásicos cinematográficos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 passion-grid-item-info ps-lg-4">
+                        <div class="w3lgrids-1 box-wrap mt-4">
+                            <div class="icon">
+                                <i class="fab fa-buromobelexperte"></i>
+                            </div>
+                            <div class="icon-text">
+                                <h4><a href="#service" class="title-head">
+                                        +2500 Series</a></h4>
+                                <p class="text-para mt-2">Cientos de series de las principales plataformas, además de seríes clásicas</p>
+                            </div>
+                        </div>
+                        <div class="w3lgrids-1 box-wrap mt-4">
+                            <div class="icon">
+                                <i class="fab fa-buromobelexperte"></i>
+                            </div>
+                            <div class="icon-text">
+                                <h4><a href="#service" class="title-head">Todos los deportes en vivo</a></h4>
+                                <p class="text-para mt-2">Todo el fútbol mundial en vivo y más deportes: F1, Tennis, NBA, NFL, UFC y mucho más.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!--//w3-grids-->
+<div style="margin: 8px auto; display: block; text-align:center;">
+
+<!---728x90--->
+ 
+</div>
+ <!--/features-section-->
+ <section class="w3l-features w3l-services-page py-5" id="contenido">
+    <div class="container py-lg-5 py-md-4 py-2">
+        <div class="title-content text-center mb-lg-3 mb-4">
+            <h6 class="title-subw3hny mb-1">Tendrás este</h6>
+            <h3 class="title-w3l">Contenido</h3>
+        </div>
+        <div class="main-cont-wthree-2">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 mt-lg-5 mt-4">
+                    <div class="grids-1 box-wrap">
+                        <div class="icon">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <div class="icon-info text-left">
+                            <h4><a href="#service" class="title-head mt-0">Series y películas actuales</a></h4>
+                            <p class="text-para" style="margin-bottom: 0.6em; padding-left: 1em; padding-right: 1em; font-size: 16px;">de las principales plataformas streaming</p>
+                            <img src="assets/images/netflix.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/hbo.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/prime.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/disney.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/star.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/apple.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/paramount.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/hulu.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/abc.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/amc.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/bbc.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/cbs.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/cw.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/fox.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/nbc.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/syfy.png" alt=" " class="img-fluid radius-image bit9" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mt-lg-5 mt-4">
+                    <div class="grids-1 box-wrap">
+                        <div class="icon">
+                            <i class="fas fa-volleyball-ball"></i>
+                        </div>
+                        <div class="icon-info text-left">
+                            <h4><a href="#service" class="title-head mt-0">
+                                    Todo el fútbol mundial en vivo</a></h4>
+                            <p class="text-para" style="margin-bottom: 0.6em; padding-left: 1em; padding-right: 1em; font-size: 16px;">Liga local y ligas internacionales</p>
+                            <img src="assets/images/ligamax.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/golperu.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/espn.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/foxsports.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/movistar.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/dsports.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/tycsports.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/champions.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/mls.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/premier.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/seriea.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/bundesliga.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/laliga.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/ligafrancia.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/conmebol.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/fifa.png" alt=" " class="img-fluid radius-image bit9" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mt-lg-5 mt-4">
+                    <div class="grids-1 box-wrap">
+                        <div class="icon">
+                            <i class="fas fa-basketball-ball"></i>
+                        </div>
+                        <div class="icon-info text-left">
+                            <h4><a href="#service" class="title-head mt-0">Más deportes y luchas en vivo</a></h4>
+                            <p class="text-para" style="margin-bottom: 0.6em; padding-left: 1em; padding-right: 1em; font-size: 16px;">F1, NBA, UFC y muchos deportes más </p>
+                            <img src="assets/images/nba.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/mlb.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/pga.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/f1.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/ufc.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/box.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/espn.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/foxsports.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/tntsports.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/tycsports.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/clarosports.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/golfchannel.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/dazn1.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/dazn2.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/skysports.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/eurosports.png" alt=" " class="img-fluid radius-image bit9" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mt-lg-5 mt-4">
+                    <div class="grids-1 box-wrap">
+                        <div class="icon">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="icon-info text-left">
+                            <h4><a href="#service" class="title-head mt-0">TV en vivo Perú</a></h4>
+                            <p class="text-para" style="margin-bottom: 0.6em; padding-left: 1em; padding-right: 1em; font-size: 16px;">los principales canales Peruanos en HD y FHD</p>
+                            <img src="assets/images/latina.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/america.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/panamericana.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/tvperu.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/atv.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/atv+.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/canaln.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/willax.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/rpp.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/globaltv.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/exitosa.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/karibeña.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/atvsur.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/congresotv.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/nativa.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/mas.png" alt=" " class="img-fluid radius-image bit9" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mt-lg-5 mt-4">
+                    <div class="grids-1 box-wrap">
+                        <div class="icon">
+                            <i class="fas fa-globe-americas"></i>
+                        </div>
+                        <div class="icon-info text-left">
+                            <h4><a href="#service" class="title-head mt-0">
+                                    Toda la TV local en vivo </a></h4>
+                            <p class="text-para" style="margin-bottom: 0.6em; padding-left: 1em; padding-right: 1em; font-size: 16px;">de latinoamérica y España</p>
+                            <img src="assets/images/esp.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/mex.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/arg.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/chi.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/col.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/uru.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/bol.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/bra.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/par.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/ven.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/sal.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/antena.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/telefe.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/azteca.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/televisa.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/caracol.png" alt=" " class="img-fluid radius-image bit9" />
+                     
+                            <img src="assets/images/mas.png" alt=" " class="img-fluid radius-image bit9" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mt-lg-5 mt-4">
+                    <div class="grids-1 box-wrap">
+                        <div class="icon">
+                            <i class="fas fa-globe-europe"></i>
+                        </div>
+                        <div class="icon-info text-left">
+                            <h4><a href="#service" class="title-head mt-0" style="margin-bottom:0.5em">
+                                    Canales premium internacionales</a></h4>
+                            <img src="assets/images/a&e.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/amc2.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/axn.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/cinelatino.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/cinemax.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/dhe.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/fx.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/fxm.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/golden.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/hbo2.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/sony.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/space.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/studiouniversal.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/tcm.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/tnt.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/tntseries.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/universalchannel.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/warner.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/axn2.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/cnn.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/dw.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/bbc.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/telemundo.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/trutv.png" alt=" " class="img-fluid radius-image bit9" />
+                            <img src="assets/images/mas.png" alt=" " class="img-fluid radius-image bit9" />
+                        </div>
+                    </div>
+                </div>
+                <div class="title-content text-center mb-lg-3 mb-4" style="margin-top: 3em;">
+                    <h6 class="title-subw3hny mb-1">Además</h6>
+                    <h3 class="title-w3l">Incluye</h3>
+                </div>
+                <div class="col-lg-6 col-md-6 mt-lg-5 mt-4">
+                    <div class="grids-1 box-wrap">
+                        <div class="icon">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <div class="icon-info text-left">
+                            <h4><a href="#service" class="title-head mt-0">Animes</a></h4>
+                            <p class="text-para" style="margin-bottom: 0.6em; padding-left: 1em; padding-right: 1em; font-size: 16px;">
+                                Disfruta más de 500 animes, que abarcan tanto las últimas novedades como los inolvidables clásicos que han dejado huella en la historia del anime.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mt-lg-5 mt-4">
+                    <div class="grids-1 box-wrap">
+                        <div class="icon">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <div class="icon-info text-left">
+                            <h4><a href="#service" class="title-head mt-0">Contenido infantil</a></h4>
+                            <p class="text-para" style="margin-bottom: 0.6em; padding-left: 1em; padding-right: 1em; font-size: 16px;">
+                                Explora un encantador universo de entretenimiento infantil a través de nuestra diversa selección de dibujos animados. ¡La mejor diversión para los más pequeños!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mt-lg-5 mt-4">
+                    <div class="grids-1 box-wrap">
+                        <div class="icon">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <div class="icon-info text-left">
+                            <h4><a href="#service" class="title-head mt-0">Series y películas latinas e internacionales</a></h4>
+                            <p class="text-para" style="margin-bottom: 0.6em; padding-left: 1em; padding-right: 1em; font-size: 16px;">Accede a series y películas latinoamericanas, españolas y muchas grandes producciones internacionales.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mt-lg-5 mt-4">
+                    <div class="grids-1 box-wrap">
+                        <div class="icon">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <div class="icon-info text-left">
+                            <h4><a href="#service" class="title-head mt-0">Telenovelas latinas e internacionales</a></h4>
+                            <p class="text-para" style="margin-bottom: 0.6em; padding-left: 1em; padding-right: 1em; font-size: 16px;">Accede a la principales telenovelas colombianas, mexicanas, argentinas, brasileras, chilenas, turcas y doramas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mt-lg-5 mt-4">
+                    <div class="grids-1 box-wrap">
+                        <div class="icon">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <div class="icon-info text-left">
+                            <h4><a href="#service" class="title-head mt-0">Series y películas clásicas</a></h4>
+                            <p class="text-para" style="margin-bottom: 0.6em; padding-left: 1em; padding-right: 1em; font-size: 16px;">Películas de todas las décadas, desde clásicos mexicanos hasta ganadoras del Oscar, así como series icónicas como Alf, McGyver, Los Magníficos, Baywatch y muchas más.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mt-lg-5 mt-4">
+                    <div class="grids-1 box-wrap">
+                        <div class="icon">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <div class="icon-info text-left">
+                            <h4><a href="#service" class="title-head mt-0">
+                                    Retro animado</a></h4>
+                            <p class="text-para" style="margin-bottom: 0.6em; padding-left: 1em; padding-right: 1em; font-size: 16px;">Dibujos y cartoons de las décadas del 70, 80, 90 y 00, que abarcan clásicos de Nickelodeon, Cartoon Network, Hanna-Barbera, Warner Bros, Disney channel, Fox Kids y muchos más.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mt-lg-5 mt-4">
+                    <div class="grids-1 box-wrap">
+                        <div class="icon">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <div class="icon-info text-left">
+                            <h4><a href="#service" class="title-head mt-0">Documentales</a></h4>
+                            <p class="text-para" style="margin-bottom: 0.6em; padding-left: 1em; padding-right: 1em; font-size: 16px;">
+                                Sumérgete en un universo de conocimiento con nuestra colección de grandes documentales, series documentales y canales en vivo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mt-lg-5 mt-4">
+                    <div class="grids-1 box-wrap">
+                        <div class="icon">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <div class="icon-info text-left">
+                            <h4><a href="#service" class="title-head mt-0">Contenido para adultos</a></h4>
+                            <p class="text-para" style="margin-bottom: 0.6em; padding-left: 1em; padding-right: 1em; font-size: 16px;">Explora el mejor contenido premium para adultos (su acceso puede ser reestringido con contraseña)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--//features-section -->
+	<div style="margin: 8px auto; display: block; text-align:center;">
+
+<!---728x90--->
+ 
+</div>
+    <!--/w3l-blog-->
+    <div class=" w3l-3-grids py-5" id="grids-3">
+        <div class="container py-md-4">
+            <div class="row">
+                <div class="col-md-6 mt-md-0">
+                    <div class="grids3-info position-relative">
+                        <a href="#img" class="d-block zoom"><img src="assets/images/banner6.jpg" alt="" class="img-fluid news-image"></a>
+                        <div class="w3-grids3-info">
+                            <h4 class="gdnhy-1"><a href="#img">Refiere a tus conocidos y gana meses gratis o S/.</a>
+                                <a class="w3item-link btn btn-style mt-4" href="#">
+                                    Referir aquí
+                                </a>
+
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-md-0 mt-4 grids3-info2">
+                    <div class="grids3-info position-relative">
+                        <a href="#img" class="d-block zoom"><img src="assets/images/banner3.jpg" alt="" class="img-fluid news-image"></a>
+                        <div class="w3-grids3-info second">
+                            <h4 class="gdnhy-1"><a href="#img">Postula como revendedor del servicio</a>
+                                <a class="w3item-link btn btn-style mt-4" href="#">
+                                    Saber más
+                                </a>
+                            </h4>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--//w3l-blog-->
+    <!--/w3l-newsletter-->
+    <section class="w3l-newsletter">
+        <div class="container">
+            <div class="uphny-w3l-newsletter-inf">
+                <div class="row uphny-w3l-newsletter align-items-center">
+                    <div class="col-lg-6 w3l-newsletter-left text-left">
+                        <h3 class="titlehny">No esperes más y pide tu prueba gratis ahora!</h3>
+                    </div>
+                    <div class="col-lg-6 w3l-newsletter-form ps-lg-5 mt-lg-0 mt-md-5 mt-4">
+                        <form action="#" method="post" class="subscribe-wthree">
+                            <div class="flex-wrap subscribe-wthree-field">
+                                <a class="btn btn-style btn-primary" href="https://wa.link/dfiy2m">Solicita tu prueba gratuita aquí</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//w3l-newsletter-->
+    <!--/footer-->
+    <footer class="w3l-footer">
+        <div class="w3l-footer-16 py-5">
+            <div class="container py-md-5 py-3 pb-0">
+                <div class="row footer-p right-side">
+                    <div class="col-lg-4 col-md-6 pe-lg-5">
+                        <h2 class="footerw3l-logo"><a class="navbar-brand" href="index.html">
+                                <span class="w3yellow">Flix</span> Prime
+                            </a></h2>
+                        <p class="mt-3">Servicio líder de IPTV con toda la programación en un solo lugar. Con Flix Prime no necesitas más plataformas.</p>
+                        <div class="columns-2 mt-lg-5 mt-4">
+                            <ul class="social">
+                                <li><a href="#facebook"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li><a href="#linkedin"><i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                                <li><a href="#twitter"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li><a href="#google"><i class="fab fa-google-plus-g"></i></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-lg-0 mt-5">
+                        <div class="row">
+                            <div class="col-xl-5 col-6 column">
+                                <h3>Países</h3>
+                                <ul class="footer-gd-16">
+                                    <li><a href="#">Perú</a></li>
+                                    <li><a href="#">Ecuador</a></li>
+                                    <li><a href="#">Colombia</a></li>
+                                    <li><a href="#">Argentina</a></li>
+                                    <li><a href="#">Chile</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6 column">
+                                <h3>Links</h3>
+                                <ul class="footer-gd-16">
+
+                                    <li><a href="#">
+                                            Guía TV</a></li>
+                                    <li><a href="#">Consultas</a></li>
+                                    <li><a href="#clean">
+                                           Contratar</a></li>
+                                    <li><a href="#medicine">
+                                            Probar demo</a></li>
+                                    <li><a href="#setting">
+                                            FAQs</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 column mt-lg-0 mt-4 pl-xl-0">
+                        <h3>Cobertura mundial</h3>
+                        <div class="end-column row">
+                            <div class="col-12 w3indta-grid">
+                                <a href="#insta">
+                                    <img src="assets/images/map.png" class="img-fluid radius-image" alt="poultryfield">
+                                </a>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="below-section text-center pt-lg-4 mt-5">
+                    <p class="copy-text">&copy; 2024 Flix Prime. Todo en un solo lugar
+                    </p>
+                    <ul class="footer-gd-16 d-flex justify-content-center">
+                        <li><a href="#terms">Terminos y condiciones
+                            </a></li>
+      
 </html>
